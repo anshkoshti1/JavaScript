@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  
+ html,body {
+    height : 100%;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+ }
+ 
+ .container{
+     text-align: center;
+     background-color: white;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .counter{
+     font-size: 24px;
+     margin: 20px 0;
+ }
+ 
+ .controls button{
+     font-size: 16px;
+     margin: 10px;
+     padding: 10px 20px;
+     cursor: pointer;
+ }
+ 
+ #addItem{
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     border-radius: 5px;
+ }
+ 
+ #removeItem{
+     background-color: #f44336;
+     color: white;
+     border: none;
+     border-radius: 5px;
+ }
+ 
+ #addItem:hover{
+     background-color: #3f8641;
+     scale: 1.1;
+     transition: all 0.3s ease;
+ }
+ 
+ #removeItem:hover{
+     background-color: #af2f26;
+     scale: 1.1;
+     transition: all 0.3s ease;
+ }
+ 
